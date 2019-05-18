@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 
-const BtnBotcamp = styled.button`
+const BtnBotcamp = styled.button.attrs({
+    children: props => props.content
+})`
         color:white;
         font-size: 20px;
         width: 280px;
@@ -15,10 +17,6 @@ const BtnBotcamp = styled.button`
         text-align: center;
 `;
 
-
-/*const BtnBotcamp = () =>(
-    <button className="btn-botcamp">Entrar</button>
-)*/
 
 export default BtnBotcamp;
 
