@@ -1,17 +1,11 @@
 import React from 'react';
 
-import BtnBotcamp from './components/BtnBotcamp';
-import LogoBotcamp from './components/LogoBotcamp';
-import LoginWrapper from './components/LoginWrapper';
+import Login from './pages/login';
+import Chat from './pages/Chat';
 
 
 const App = () => (
-
-        <LoginWrapper>
-            <LogoBotcamp />
-            <BtnBotcamp content="Entrar"/>
-        </LoginWrapper>
-   
+       <Login />
 );
 
 

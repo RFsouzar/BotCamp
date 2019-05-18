@@ -3,13 +3,10 @@ import BotCampImg from "../../img/botcamp.png";
 
 
 const LogoBotcamp = styled.img.attrs({
-    src: `${BotCampImg}`
+    src: `${BotCampImg}`,
+    alt: "Logo do Botcamp"
   })`
   width: 248px;
-  position:relative;
-  margin-top: 5em;
-  margin-left: 2em;
-  text-align: center;
   
   `;
 

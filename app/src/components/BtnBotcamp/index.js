@@ -11,10 +11,7 @@ const BtnBotcamp = styled.button.attrs({
         border-radius: 25px;
         background-color: #ee3e25;
         text-transform: uppercase;
-        position: relative;
-        margin: 15em auto;
-        display: block;
-        text-align: center;
+        
 `;
 
 
