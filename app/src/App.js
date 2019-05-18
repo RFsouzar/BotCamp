@@ -1,14 +1,17 @@
 import React from 'react';
+
 import BtnBotcamp from './components/BtnBotcamp';
 import LogoBotcamp from './components/LogoBotcamp';
+import LoginWrapper from './components/LoginWrapper';
 
 
 const App = () => (
-    <section>
-        <LogoBotcamp />
-        <BtnBotcamp />
-        
-    </section>
+
+        <LoginWrapper>
+            <LogoBotcamp />
+            <BtnBotcamp >Entrar</BtnBotcamp>
+        </LoginWrapper>
+   
 );
 
 
